@@ -60,7 +60,7 @@ public:
     // O(n^2)
     // Idea:
     // 1. Reduce the complexity from O(n^3) to O(n^2) by first iterating through and saving arr[i] + arr[j] for i < j
-    // 2. Afterwards loop through array and check if a number exists equal to -(arr[i] + arr[j])
+    // 2. Afterwards loop through array and check if a number equal to -(arr[i] + arr[j]) exists.
     //
     // This solution however, as it stands, will produce repeating entries.
     // Think about how we can avoid this problem.
